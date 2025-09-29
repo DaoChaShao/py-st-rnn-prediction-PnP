@@ -5,6 +5,7 @@
 
 ### Features
 
+- update CHANGELOG.md to document recent features and updates ([745889e](https://github.com///commit/745889e5c9bdebd5fa69cb15cfb4e59b0d4e56fb))
 - integrate layout configuration and page setup in main function ([c2ed7e1](https://github.com///commit/c2ed7e1751e6381406b2df7036724190fe621688))
 - add layout configuration and sidebar navigation for application pages ([c88628d](https://github.com///commit/c88628df1010d16b58b6e7eaa46bf623e31cac41))
 - update home.py with introductory title and informational messages ([2592a2e](https://github.com///commit/2592a2eff8494aee2ca0eff115cd653d55a4f011))
@@ -30,4 +31,8 @@
 - add __init__.py with main function template ([13b0aa0](https://github.com///commit/13b0aa09441030801049f34fed8b0228e90430cb))
 - add .gitignore to exclude IDE, environment, and system files ([68095f3](https://github.com///commit/68095f300c165f9db431d610b05b0d4d8610fec9))
 - add .gitignore to exclude IDE and environment files ([66b012b](https://github.com///commit/66b012be3417348a10b6be4ce575d6deefd11496))
+
+### Bug Fixes
+
+- correct formatting in README.md for data source section ([9edb1a0](https://github.com///commit/9edb1a0203bb025aa55607d55779d2ecd3c45cbc))
 
