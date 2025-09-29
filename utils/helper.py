@@ -127,7 +127,7 @@ class StTFKLoggerFor2Callbacks(Callback):
         return self._history
 
 
-def numerical_txt_reader(filepath: str) -> DataFrame:
+def txt2df_reader(filepath: str) -> DataFrame:
     """ Read a txt file structurally
     :param filepath: the path to the file
     :return: a DataFrame
@@ -135,7 +135,7 @@ def numerical_txt_reader(filepath: str) -> DataFrame:
     return read_csv(filepath, delimiter=",", encoding="utf-8")
 
 
-def article_txt_reader(filepath: str) -> str:
+def txt_reader(filepath: str) -> str:
     """Read a txt file as a single string
     :param filepath: the path to the file
     :return: the text content as a string
