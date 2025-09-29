@@ -29,6 +29,12 @@ learning-based text generation.
 - **Applications**:
     - Train an LSTM-based **language model**
     - Perform **text generation experiments** (e.g., feed an opening phrase and let the model generate continuations)
+- **NLP Part**
+    - Run the command:
+      ```bash
+      python -m spacy download en_core_web_sm
+      ```
+      to load the model named `en_core_web_sm` for English tokenization.
 
 **FEATURES**
 ---
