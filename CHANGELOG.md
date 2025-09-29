@@ -5,6 +5,12 @@
 
 ### Features
 
+- integrate layout configuration and page setup in main function ([c2ed7e1](https://github.com///commit/c2ed7e1751e6381406b2df7036724190fe621688))
+- add layout configuration and sidebar navigation for application pages ([c88628d](https://github.com///commit/c88628df1010d16b58b6e7eaa46bf623e31cac41))
+- update home.py with introductory title and informational messages ([2592a2e](https://github.com///commit/2592a2eff8494aee2ca0eff115cd653d55a4f011))
+- add helper functions for data processing and model training ([4b3dbd8](https://github.com///commit/4b3dbd886d7911aa33ca5dc0fe27c2ec56f2006c))
+- enhance about.py with application information display ([d09cb92](https://github.com///commit/d09cb9270a2355523a961bc1eea6a3ffbca18e7a))
+- add CHANGELOG.md to document project features and updates ([f50bed9](https://github.com///commit/f50bed988fc3d915bae65efb37518b1378a417ac))
 - add train.py with initial metadata and structure ([8f10cb4](https://github.com///commit/8f10cb4c9c48d6e08a0607db7bfb7821f2ad9bbe))
 - add test.py with initial file structure and metadata ([5ce15f6](https://github.com///commit/5ce15f6b2c5389b2df380dd229a5c8a830de7d84))
 - add requirements.txt with necessary dependencies for the project ([d3a4102](https://github.com///commit/d3a41029bdda95298ae330bf33333c9bafa45366))
