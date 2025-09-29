@@ -1,10 +1,15 @@
 <!-- insertion marker -->
 <a name="0.1.0"></a>
 
-## [0.1.0](https://github.com///compare/2b3230adb8ce8a9f4a2e2b61d1c977c73fe8d75b...0.1.0) (2025-09-29)
+## [0.1.0](https://github.com///compare/2b3230adb8ce8a9f4a2e2b61d1c977c73fe8d75b...0.1.0) (2025-09-30)
 
 ### Features
 
+- add jieba and spacy dependencies for text processing ([6f8e7e5](https://github.com///commit/6f8e7e595e71156ed891afed522b389ac4bbfa7d))
+- add English text preprocessing class with tokenization and lemmatization ([c60e905](https://github.com///commit/c60e9051e0865d6d0a0b0ad3ead77c673585bf12))
+- add BLACKLIST configuration for managing excluded items ([95c1e58](https://github.com///commit/95c1e5854bcd301b14010bc687db48117e348fb8))
+- add blacklist.txt for managing excluded items ([3b360b6](https://github.com///commit/3b360b6a05680251ca74e7f26b2990b1c227abfe))
+- add data analysis and processing functionality with token generation and clearing options ([814d64e](https://github.com///commit/814d64e9d4954548f85c353700cd0b93a4e49d1c))
 - implement text data preparation interface with loading and clearing functionality ([8c3f8b9](https://github.com///commit/8c3f8b9753591635d677f8b4b5fc42b453d86a1b))
 - rename txt_reader to numerical_txt_reader and add article_txt_reader for reading text files ([2564d40](https://github.com///commit/2564d403f321aa3a880f341838814956970cf24b))
 - add file paths for text data and model saving in config.py ([a00074b](https://github.com///commit/a00074bc50dc5effc65a6eb1aa717af375834263))
@@ -39,4 +44,18 @@
 ### Bug Fixes
 
 - correct formatting in README.md for data source section ([9edb1a0](https://github.com///commit/9edb1a0203bb025aa55607d55779d2ecd3c45cbc))
+
+### Chore
+
+- update CHANGELOG.md to include recent feature additions ([d2c9d61](https://github.com///commit/d2c9d611f2a4e6dc29c8c31b3b7552455bc7585f))
+
+### Docs
+
+- add instructions for downloading English tokenization model in Chinese README ([5ccd028](https://github.com///commit/5ccd0289e1335fa6abc6712d175c99b388c2935c))
+- update README to include instructions for downloading English tokenization model ([9fe85ee](https://github.com///commit/9fe85eee1acdec3e5ecb4a01e0a9551c322a95fb))
+
+### Code Refactoring
+
+- update timer session names for consistency in text data preparation ([d71852d](https://github.com///commit/d71852de82c16a67b3528e069e7d801bb8a3bafa))
+- rename text file reader functions for clarity ([c036728](https://github.com///commit/c036728ff8609b791f23fdfcd3f7b0a0fcae194a))
 
