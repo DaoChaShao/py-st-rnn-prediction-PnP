@@ -17,8 +17,8 @@ learning-based text generation.
 **DATA DESCRIPTION**
 ---
 
-- **Source
-  **: [Kaggle - LSTM Next Word Prediction Data](https://www.kaggle.com/datasets/hakim11/lstm-next-word-prediction-data)
+- **Source**:
+  [Kaggle - LSTM Next Word Prediction Data](https://www.kaggle.com/datasets/hakim11/lstm-next-word-prediction-data)
 - **Content**: Full English text of *Pride and Prejudice* by Jane Austen
 - **Language**: English (Modern English literary text)
 - **Task Type**: Next Word Prediction / Text Generation
