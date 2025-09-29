@@ -6,4 +6,5 @@
 # @File     :   config.py
 # @Desc     :   
 
-
+TEXT_FILE_PATH = "data/Pride_and_Prejudice.txt"
+MODEL_SAVE_PATH = "rnn_model.h5"
