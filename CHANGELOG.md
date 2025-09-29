@@ -5,6 +5,10 @@
 
 ### Features
 
+- implement text data preparation interface with loading and clearing functionality ([8c3f8b9](https://github.com///commit/8c3f8b9753591635d677f8b4b5fc42b453d86a1b))
+- rename txt_reader to numerical_txt_reader and add article_txt_reader for reading text files ([2564d40](https://github.com///commit/2564d403f321aa3a880f341838814956970cf24b))
+- add file paths for text data and model saving in config.py ([a00074b](https://github.com///commit/a00074bc50dc5effc65a6eb1aa717af375834263))
+- add section for bug fixes in CHANGELOG.md ([c983fdb](https://github.com///commit/c983fdbc11d8c70e3dfcd012dadfe5c00ba8f580))
 - update CHANGELOG.md to document recent features and updates ([745889e](https://github.com///commit/745889e5c9bdebd5fa69cb15cfb4e59b0d4e56fb))
 - integrate layout configuration and page setup in main function ([c2ed7e1](https://github.com///commit/c2ed7e1751e6381406b2df7036724190fe621688))
 - add layout configuration and sidebar navigation for application pages ([c88628d](https://github.com///commit/c88628df1010d16b58b6e7eaa46bf623e31cac41))
