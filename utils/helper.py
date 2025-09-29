@@ -127,12 +127,22 @@ class StTFKLoggerFor2Callbacks(Callback):
         return self._history
 
 
-def txt_reader(filepath: str) -> DataFrame:
+def numerical_txt_reader(filepath: str) -> DataFrame:
     """ Read a txt file structurally
     :param filepath: the path to the file
     :return: a DataFrame
     """
     return read_csv(filepath, delimiter=",", encoding="utf-8")
+
+
+def article_txt_reader(filepath: str) -> str:
+    """Read a txt file as a single string
+    :param filepath: the path to the file
+    :return: the text content as a string
+    """
+    with open(filepath, "r", encoding="utf-8") as file:
+        text = file.read()
+    return text
 
 
 def useless_cols_dropper(data: DataFrame, cols: list[str]) -> DataFrame:
@@ -230,7 +240,7 @@ def sequential_data_extractor_and_spliter(
     X_test = array(X_test)
     y_test = array(y_test)
 
-    # If only one target column, flatten y to shape (n_samples,)
+    # If only one target column, flatten y to shape (n_samples, timesteps)
     if len(target_index) == 1:
         y_train = y_train.flatten()
         y_test = y_test.flatten()
