@@ -15,24 +15,25 @@
 **数据描述**
 ---
 
-- **来源**:
-  [Kaggle - LSTM Next Word Prediction Data](https://www.kaggle.com/datasets/hakim11/lstm-next-word-prediction-data)
-- **内容**: 数据集收录了 Jane Austen 的《Pride and Prejudice》完整英文文本
-- **语言**: 英文（现代英语文学文本）
-- **任务类型**: 下一词预测 (Next Word Prediction) / 文本生成 (Text Generation)
-- **处理方式**:
+1. **来源**:
+   [Kaggle - LSTM Next Word Prediction Data](https://www.kaggle.com/datasets/hakim11/lstm-next-word-prediction-data)
+2. **内容**: 数据集收录了 Jane Austen 的《Pride and Prejudice》完整英文文本
+3. **语言**: 英文（现代英语文学文本）
+4. **任务类型**: 下一词预测 (Next Word Prediction) / 文本生成 (Text Generation)
+5. **处理方式**:
     - 文本清洗（去除标点符号、特殊字符）
     - 构建词表 (Vocabulary)
     - 将文本切分为固定长度的输入序列和对应的目标词
-- **用途**:
+6. **用途**:
     - 训练 LSTM 进行 **语言建模**
     - 进行 **文本生成实验**（例如输入开头语句，预测并生成后续内容）
-- **NLP 部分**:
-    - 运行命令：
-      ```bash
-      python -m spacy download en_core_web_sm
-      ```
-      以加载名为 `en_core_web_sm` 的英文分词模型。
+7. **NLP 部分**:
+
+- 运行命令：
+    ```bash
+    python -m spacy download en_core_web_sm
+    ```
+  以加载名为 `en_core_web_sm` 的英文分词模型。
 
 **特色功能**
 ---
