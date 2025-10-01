@@ -1,10 +1,14 @@
 <!-- insertion marker -->
 <a name="0.1.0"></a>
 
-## [0.1.0](https://github.com///compare/2b3230adb8ce8a9f4a2e2b61d1c977c73fe8d75b...0.1.0) (2025-09-30)
+## [0.1.0](https://github.com///compare/2b3230adb8ce8a9f4a2e2b61d1c977c73fe8d75b...0.1.0) (2025-10-02)
 
 ### Features
 
+- implement data preparation and model training workflow in train.py with Streamlit interface ([d7f8315](https://github.com///commit/d7f8315303c364f9da5e534d49805351a84cb407))
+- add tf.py with custom Keras callbacks and data processing functions for RNN/LSTM models ([98f9426](https://github.com///commit/98f9426039c0c86e2e27391658f5a81bb62a33e3))
+- add tokenization and n-gram processing functions to nlp.py ([c6f05a0](https://github.com///commit/c6f05a06b2de00124473c28e1420b30eef500a1f))
+- enhance analysis.py with token generation, dictionary building, and n-gram processing features ([ba2d62d](https://github.com///commit/ba2d62df817d500055d70cdbb174aa9b5eca5492))
 - add jieba and spacy dependencies for text processing ([6f8e7e5](https://github.com///commit/6f8e7e595e71156ed891afed522b389ac4bbfa7d))
 - add English text preprocessing class with tokenization and lemmatization ([c60e905](https://github.com///commit/c60e9051e0865d6d0a0b0ad3ead77c673585bf12))
 - add BLACKLIST configuration for managing excluded items ([95c1e58](https://github.com///commit/95c1e5854bcd301b14010bc687db48117e348fb8))
@@ -43,19 +47,26 @@
 
 ### Bug Fixes
 
+- correct type hint for pre_sessions and improve success message formatting in preparation.py ([f260f58](https://github.com///commit/f260f5853b65cbe0218d1a9e68698a8febb12ad5))
 - correct formatting in README.md for data source section ([9edb1a0](https://github.com///commit/9edb1a0203bb025aa55607d55779d2ecd3c45cbc))
 
 ### Chore
 
+- remove jieba dependency from requirements.txt ([752552e](https://github.com///commit/752552e6a53941b35907ccd5b08f043fd9e60f93))
 - update CHANGELOG.md to include recent feature additions ([d2c9d61](https://github.com///commit/d2c9d611f2a4e6dc29c8c31b3b7552455bc7585f))
 
 ### Docs
 
+- enhance Chinese README with improved formatting and clarity for data description and NLP instructions ([2885918](https://github.com///commit/28859182fd1de14ab3cbd7ebea096765ee1db50c))
+- update README.md for improved data description and NLP instructions ([38562b3](https://github.com///commit/38562b33c7a9eb4f2bf7f86fe56e094689d0c38d))
+- update main.py docstring with detailed instructions for running the application locally and on a remote server ([87581a9](https://github.com///commit/87581a97f434e6b7026572286071961da123ca52))
+- update CHANGELOG.md to include recent feature additions and improvements ([08ab681](https://github.com///commit/08ab681350460e44efdd933466b7a3277d722e5d))
 - add instructions for downloading English tokenization model in Chinese README ([5ccd028](https://github.com///commit/5ccd0289e1335fa6abc6712d175c99b388c2935c))
 - update README to include instructions for downloading English tokenization model ([9fe85ee](https://github.com///commit/9fe85eee1acdec3e5ecb4a01e0a9551c322a95fb))
 
 ### Code Refactoring
 
+- remove unused Keras callback classes and related functions from helper.py ([6c551f9](https://github.com///commit/6c551f95ff8850c4d604e33bbb22264baeea7cb8))
 - update timer session names for consistency in text data preparation ([d71852d](https://github.com///commit/d71852de82c16a67b3528e069e7d801bb8a3bafa))
 - rename text file reader functions for clarity ([c036728](https://github.com///commit/c036728ff8609b791f23fdfcd3f7b0a0fcae194a))
 
