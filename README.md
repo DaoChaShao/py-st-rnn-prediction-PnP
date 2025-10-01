@@ -17,24 +17,28 @@ learning-based text generation.
 **DATA DESCRIPTION**
 ---
 
-- **Source**:
-  [Kaggle - LSTM Next Word Prediction Data](https://www.kaggle.com/datasets/hakim11/lstm-next-word-prediction-data)
-- **Content**: Full English text of *Pride and Prejudice* by Jane Austen
-- **Language**: English (Modern English literary text)
-- **Task Type**: Next Word Prediction / Text Generation
-- **Preprocessing Steps**:
-    - Text cleaning (removing punctuation and special characters)
-    - Vocabulary construction
-    - Splitting text into fixed-length input sequences with target labels
-- **Applications**:
-    - Train an LSTM-based **language model**
-    - Perform **text generation experiments** (e.g., feed an opening phrase and let the model generate continuations)
-- **NLP Part**
-    - Run the command:
-      ```bash
-      python -m spacy download en_core_web_sm
-      ```
-      to load the model named `en_core_web_sm` for English tokenization.
+1. **Source**:
+   [Kaggle - LSTM Next Word Prediction Data](https://www.kaggle.com/datasets/hakim11/lstm-next-word-prediction-data)
+2. **Content**: Full English text of *Pride and Prejudice* by Jane Austen
+3. **Language**: English (Modern English literary text)
+4. **Task Type**: Next Word Prediction / Text Generation
+5. **Preprocessing Steps**:
+
+- Text cleaning (removing punctuation and special characters)
+- Vocabulary construction
+- Splitting text into fixed-length input sequences with target labels
+
+6. **Applications**:
+
+- Train an LSTM-based **language model**
+- Perform **text generation experiments** (e.g., feed an opening phrase and let the model generate continuations)
+
+7. **NLP Part**
+
+- load the model named `en_core_web_sm` for English tokenization locally by running the command:
+    ```bash
+    python -m spacy download en_core_web_sm
+    ```
 
 **FEATURES**
 ---
