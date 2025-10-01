@@ -12,5 +12,4 @@ plotly==6.3.0
 keras==3.11.3
 tensorflow==2.16.2
 
-jieba==0.42.1
 spacy==3.8.7
