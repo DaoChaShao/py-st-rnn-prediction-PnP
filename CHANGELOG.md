@@ -5,6 +5,7 @@
 
 ### Features
 
+- enhance LSTM model architecture in train.py with BatchNormalization and additional Dense layer ([19e87e0](https://github.com///commit/19e87e0336205bdfe57c37588819433d6e3f5594))
 - implement data preparation and model training workflow in train.py with Streamlit interface ([d7f8315](https://github.com///commit/d7f8315303c364f9da5e534d49805351a84cb407))
 - add tf.py with custom Keras callbacks and data processing functions for RNN/LSTM models ([98f9426](https://github.com///commit/98f9426039c0c86e2e27391658f5a81bb62a33e3))
 - add tokenization and n-gram processing functions to nlp.py ([c6f05a0](https://github.com///commit/c6f05a06b2de00124473c28e1420b30eef500a1f))
@@ -57,6 +58,7 @@
 
 ### Docs
 
+- update CHANGELOG.md to reflect recent feature additions and improvements ([6889ba4](https://github.com///commit/6889ba44ccd4461f93a3d0b000613e2907ecd261))
 - enhance Chinese README with improved formatting and clarity for data description and NLP instructions ([2885918](https://github.com///commit/28859182fd1de14ab3cbd7ebea096765ee1db50c))
 - update README.md for improved data description and NLP instructions ([38562b3](https://github.com///commit/38562b33c7a9eb4f2bf7f86fe56e094689d0c38d))
 - update main.py docstring with detailed instructions for running the application locally and on a remote server ([87581a9](https://github.com///commit/87581a97f434e6b7026572286071961da123ca52))
