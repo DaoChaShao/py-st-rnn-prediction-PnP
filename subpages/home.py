@@ -13,4 +13,8 @@ empty_messages.info("Please check the details at the different pages of core fun
 
 title("Recurrent Neural Network (RNN) - Sequences Generation Prediction")
 with expander("**INTRODUCTION**", expanded=True):
-    caption("+")
+    caption("+ A comprehensive NLP pipeline for text sequence prediction")
+    caption("+ End-to-end workflow from raw text to trained LSTM model")
+    caption("+ Interactive Streamlit interface with step-by-step guidance")
+    caption("+ Designed for next-word prediction and text generation tasks")
+    caption("+ Built with TensorFlow/Keras for deep learning capabilities")
