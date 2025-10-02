@@ -12,7 +12,9 @@ linguistic patterns and generates new sequences in a similar style. The goal is 
 model capable of predicting the next word and generating text continuations.
 
 This project is a practical case study for **NLP beginners**, focusing on sequence modeling, language modeling, and deep
-learning-based text generation.
+learning-based text generation. A comprehensive Streamlit-based web application for text sequence prediction using
+RNN/LSTM models. This tool provides an end-to-end pipeline from raw text preprocessing to model training and evaluation,
+specifically designed for next-word prediction tasks in natural language processing.
 
 **DATA DESCRIPTION**
 ---
@@ -43,6 +45,13 @@ learning-based text generation.
 **FEATURES**
 ---
 
+- **Text Preprocessing**: Automated text cleaning, tokenization, and lemmatization using spaCy
+- **Vocabulary Building**: TensorFlow Tokenizer integration for dictionary creation
+- **N-gram Sequences**: Generation of sequential training data with configurable n-gram lengths
+- **Neural Network Architecture**: Multi-layer LSTM with Dropout and BatchNormalization
+- **Model Training**: Customizable training parameters with real-time metrics monitoring
+- **Interactive UI**: Streamlit-based interface with step-by-step workflow
+- **Model Persistence**: Save and load trained models for future use
 
 **QUICK START**
 ---
