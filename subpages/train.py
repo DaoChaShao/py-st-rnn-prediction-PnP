@@ -194,12 +194,17 @@ with sidebar:
 
                                                         layers.LSTM(dimensions, return_sequences=True),
                                                         layers.Dropout(drop_rate),
+                                                        layers.BatchNormalization(),
 
                                                         layers.LSTM(dimensions, return_sequences=True),
                                                         layers.Dropout(drop_rate),
-
-                                                        layers.LSTM(dimensions),
                                                         layers.BatchNormalization(),
+
+                                                        layers.LSTM(dimensions, return_sequences=False),
+                                                        layers.BatchNormalization(),
+
+                                                        layers.Dense(dimensions, activation="relu"),
+                                                        layers.Dropout(drop_rate),
 
                                                         layers.Dense(vocab_size, activation="softmax")
                                                     ])
