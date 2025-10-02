@@ -58,6 +58,11 @@
 
 ### Docs
 
+- update README.zh-CN.md to enhance project description and feature list for NLP text generation application with Streamlit integration ([d0d799f](https://github.com///commit/d0d799fa38e3b493336f7ab8381ebf11f4f9c21d))
+- update README.md to enhance project description and feature list for NLP text generation application ([7a3f5fe](https://github.com///commit/7a3f5fe2ff3555ce3a0999aa9012ca031ac5eca0))
+- enhance home.py introduction with detailed NLP pipeline and LSTM model features ([0290dd3](https://github.com///commit/0290dd30911676a3d35e0a8b1920155d0b5ead2f))
+- update about.py to enhance application information with LSTM architecture details and features ([84b54ff](https://github.com///commit/84b54ff039501b3e3e9b85d7d0265f81bb3a8612))
+- update CHANGELOG.md to include recent enhancements to LSTM model architecture and other feature additions ([c0252c1](https://github.com///commit/c0252c1083351637811d3e5f9d4c76ea3d7dd211))
 - update CHANGELOG.md to reflect recent feature additions and improvements ([6889ba4](https://github.com///commit/6889ba44ccd4461f93a3d0b000613e2907ecd261))
 - enhance Chinese README with improved formatting and clarity for data description and NLP instructions ([2885918](https://github.com///commit/28859182fd1de14ab3cbd7ebea096765ee1db50c))
 - update README.md for improved data description and NLP instructions ([38562b3](https://github.com///commit/38562b33c7a9eb4f2bf7f86fe56e094689d0c38d))
